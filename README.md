@@ -48,7 +48,7 @@ This project implements a relational database for a our &Travel website, develop
 
 ## CHALLENGES AND SOLUTIONS 
 
-- Usinh `ENUM` in MYSQL aided controlling allowed values for roles and statuses.
+- Using `ENUM` in MYSQL aided controlling allowed values for roles and statuses.
 - MYSQL's partial support for `CHECk` constraints required additional validations in backend or application layers for rating and price ranges.
 - Ensured data consistency with explicit foreign  keys and uniqie constraints.
 
